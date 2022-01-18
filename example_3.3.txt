@@ -1,0 +1,6 @@
+<assign> -> <id> = <expr>
+<id> -> A | B | C
+<expr> -> <expr> + <expr>
+        | <expr> * <expr>
+        | ( <expr> )
+        | <id>
